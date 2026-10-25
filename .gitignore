@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Model weights download automatically on first run
+*.pt
+
+# Videos and generated output (never commit footage of people)
+*.mp4
+*.avi
+*.mov
+*.mkv
+chairs.json
+report.csv
+sittings.csv
